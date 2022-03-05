@@ -7,6 +7,7 @@ import AwsC from './assets/awscertified.png';
 function Projects(props) {
   return (
     <div id="projects" className="justify-content-center fs-5 min-height">
+      <h3 className="mb-4">Projects</h3>
       <Container>
         <Card className="projects-card mb-3">
           <Row>
