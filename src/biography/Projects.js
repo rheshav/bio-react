@@ -11,7 +11,7 @@ function Projects(props) {
         <Card className="projects-card mb-3">
           <Row>
             <Col md={4}>
-              <Card.Img src={Aps} className="img-fluid rounded-start" />
+              <Card.Img src={Aps} className="img-fluid rounded-start projects-img" />
             </Col>
             <Col>
               <Card.Body>
@@ -26,7 +26,7 @@ function Projects(props) {
         <Card className="projects-card mb-3">
           <Row>
             <Col md={4}>
-              <Card.Img src={Mangan} />
+              <Card.Img src={Mangan} className="img-fluid rounded-start projects-img" />
             </Col>
             <Col>
               <Card.Body>
@@ -41,7 +41,7 @@ function Projects(props) {
         <Card className="projects-card mb-3">
           <Row>
             <Col md={4}>
-              <Card.Img src={AwsC} />
+              <Card.Img src={AwsC} className="img-fluid rounded-start projects-img" />
             </Col>
             <Col>
               <Card.Body>
