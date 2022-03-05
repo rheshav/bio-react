@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 export default class NavigationBar extends React.Component {
   render() {
     return (
-      <Navbar bg="dark" variant="dark" fixed="top">
+      <Navbar fixed="top" variant="dark" className="navbar">
         <Container>
           <Navbar.Brand href="#home">Rhesa Havilah Mondi</Navbar.Brand>
           <Nav className="me-20">

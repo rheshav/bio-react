@@ -8,11 +8,9 @@ import { Container } from 'react-bootstrap';
 function App() {
   return (
     <div>
-      <Container fluid>
-        <Header />
-        <Body />
-        <Footer />
-      </Container>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
